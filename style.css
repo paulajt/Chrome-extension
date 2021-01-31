@@ -1,0 +1,46 @@
+.nikeAppearenceButton{
+    display: inline-block !important;
+    vertical-align: top !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+    transition: all 0.2s ease 0s !important;
+    background: rgb(17, 17, 17) !important;
+    color: rgb(255, 255, 255) !important;
+    line-height: 1.5 !important;
+    margin-bottom: 12px !important;
+    width: 100% !important;
+    padding: 18px 24px !important;
+    border-radius: 30px !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    font-family: Arial !important;
+    transform: none !important;
+    letter-spacing: normal !important;
+    text-transform: none !important;
+    height: fit-content !important;
+}
+
+.hideElement{
+    display: none !important;
+}
+
+.nameBackground{
+    background-color: #37C8CD;
+}
+
+.order-summary-section___shipping{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-summary___shipping-value, .order-summary___shipping-label{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 14px;
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+}
+
