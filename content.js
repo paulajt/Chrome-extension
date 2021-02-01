@@ -61,7 +61,8 @@ function addShippingCosts() {
     totalPrice.forEach(element => {
         var currentPrice = element.innerHTML;
         currentPrice = currentPrice.substring(currentPrice.indexOf(" ") + 1, currentPrice.length);
-        var realPrice = parseInt(currentPrice) + 4.95;
+        var currentPriceNumber = parseFloat(currentPrice.replace(",", "."));
+        var realPrice = currentPriceNumber + 4.95;
         element.innerHTML = element.innerHTML.replace(currentPrice, realPrice);
     });
 }
